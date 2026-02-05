@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits Lab 1</title>
+    <style>
+        body { font-family: serif;
+                margin: 50px;
+                background-color: #ffffff; }
+
+        h1 { font-size: 40px;
+            margin-bottom: 20px;}
+
+        /* Tạo lưới 5 cột */
+        .grid-container { display: grid;
+                          grid-template-columns: repeat(5, 100px); /* 5 cột, mỗi cột 100px */
+                          gap: 20px; /* Khoảng cách giữa các tấm hình */
+                          align-items: center; }
+
+        .grid-container img { width: 100px; /* Độ rộng của ảnh */
+                              height: auto;
+                               display: block;}
+    </style>
+</head>
+<body>
+
+    <h1>Fruits</h1>
+
+    <div class="grid-container">
+        <img src="banana.jpg" alt="Banana">
+        <img src="banana.jpg" alt="Orange">
+        <img src="kiwi.jpg" alt="Kiwi">
+        <img src="kiwi.jpg" alt="Kiwi">
+        <img src="apple.jpg" alt="Apple">
+
+        <img src="apple.jpg" alt="Apple">
+        <img src="apple.jpg" alt="Apple">
+        <img src="banana.jpg" alt="Banana">
+        <img src="kiwi.jpg" alt="Kiwi">
+        <img src="banana.jpg" alt="Orange">
+
+        <img src="banana.jpg" alt="Orange">
+        <img src="banana.jpg" alt="Banana">
+        <img src="banana.jpg" alt="Orange">
+        <img src="banana.jpg" alt="Orange">
+        <img src="apple.jpg" alt="Apple">
+    </div>
+
+</body>
+</html>
+        
